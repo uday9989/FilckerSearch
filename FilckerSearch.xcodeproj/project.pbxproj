@@ -7,26 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78A1E53027CF9BFE0093D4EF /* FilckerSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E52F27CF9BFE0093D4EF /* FilckerSearchApp.swift */; };
-		78A1E53227CF9BFE0093D4EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E53127CF9BFE0093D4EF /* ContentView.swift */; };
-		78A1E53427CF9C000093D4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1E53327CF9C000093D4EF /* Assets.xcassets */; };
-		78A1E53727CF9C000093D4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1E53627CF9C000093D4EF /* Preview Assets.xcassets */; };
-		78A1E54127CF9C000093D4EF /* FilckerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E54027CF9C000093D4EF /* FilckerSearchTests.swift */; };
-		78A1E54B27CF9C000093D4EF /* FilckerSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E54A27CF9C000093D4EF /* FilckerSearchUITests.swift */; };
-		78A1E54D27CF9C000093D4EF /* FilckerSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E54C27CF9C000093D4EF /* FilckerSearchUITestsLaunchTests.swift */; };
-		78A1E55C27CF9DAE0093D4EF /* PhotoSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E55B27CF9DAE0093D4EF /* PhotoSearchView.swift */; };
-		78A1E55E27CF9E420093D4EF /* PhotoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E55D27CF9E420093D4EF /* PhotoDetail.swift */; };
+		78A1E5D527CFCC670093D4EF /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E5D427CFCC670093D4EF /* EndPoints.swift */; };
+		78A1E5D727CFCCA60093D4EF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E5D627CFCCA60093D4EF /* NetworkManager.swift */; };
+		78A1E5D927CFCD240093D4EF /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E5D827CFCD240093D4EF /* URLRequest+Extension.swift */; };
+		78A1E5DB27CFCD5B0093D4EF /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E5DA27CFCD5B0093D4EF /* ServiceError.swift */; };
+		78A1E5DD27CFCD910093D4EF /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E5DC27CFCD910093D4EF /* ApiRequest.swift */; };
+		78A1E5DF27CFCDC30093D4EF /* PhotoSearchGallaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E5DE27CFCDC30093D4EF /* PhotoSearchGallaryApp.swift */; };
+		78A1E62227CFE1050093D4EF /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61127CFE1040093D4EF /* ImageCache.swift */; };
+		78A1E62327CFE1050093D4EF /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61227CFE1040093D4EF /* UrlImageView.swift */; };
+		78A1E62427CFE1050093D4EF /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61327CFE1040093D4EF /* UrlImageModel.swift */; };
+		78A1E62527CFE1050093D4EF /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61527CFE1040093D4EF /* Rechability.swift */; };
+		78A1E62627CFE1050093D4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1E61627CFE1040093D4EF /* Assets.xcassets */; };
+		78A1E62727CFE1050093D4EF /* PhotoSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61927CFE1040093D4EF /* PhotoSearchViewModel.swift */; };
+		78A1E62827CFE1050093D4EF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61A27CFE1040093D4EF /* CardView.swift */; };
+		78A1E62927CFE1050093D4EF /* PhotoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61B27CFE1050093D4EF /* PhotoDetail.swift */; };
+		78A1E62A27CFE1050093D4EF /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61C27CFE1050093D4EF /* SearchResponse.swift */; };
+		78A1E62B27CFE1050093D4EF /* PhotoSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E61D27CFE1050093D4EF /* PhotoSearchView.swift */; };
+		78A1E62C27CFE1050093D4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1E61F27CFE1050093D4EF /* Preview Assets.xcassets */; };
+		78A1E62D27CFE1050093D4EF /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E62127CFE1050093D4EF /* SearchRepository.swift */; };
+		78A1E63E27CFE53E0093D4EF /* PhotoSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E63D27CFE53E0093D4EF /* PhotoSearchViewModelTests.swift */; };
+		78A1E64027CFE6760093D4EF /* Search_Success_Responce.json in Resources */ = {isa = PBXBuildFile; fileRef = 78A1E63F27CFE6760093D4EF /* Search_Success_Responce.json */; };
+		78A1E64227CFE6F70093D4EF /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E64127CFE6F70093D4EF /* MockNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78A1E53D27CF9C000093D4EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1E52427CF9BFE0093D4EF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78A1E52B27CF9BFE0093D4EF;
-			remoteInfo = FilckerSearch;
-		};
-		78A1E54727CF9C000093D4EF /* PBXContainerItemProxy */ = {
+		78A1E63827CFE4810093D4EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78A1E52427CF9BFE0093D4EF /* Project object */;
 			proxyType = 1;
@@ -37,17 +42,28 @@
 
 /* Begin PBXFileReference section */
 		78A1E52C27CF9BFE0093D4EF /* FilckerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilckerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A1E52F27CF9BFE0093D4EF /* FilckerSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilckerSearchApp.swift; sourceTree = "<group>"; };
-		78A1E53127CF9BFE0093D4EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		78A1E53327CF9C000093D4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		78A1E53627CF9C000093D4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		78A1E53C27CF9C000093D4EF /* FilckerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilckerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A1E54027CF9C000093D4EF /* FilckerSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilckerSearchTests.swift; sourceTree = "<group>"; };
-		78A1E54627CF9C000093D4EF /* FilckerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilckerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A1E54A27CF9C000093D4EF /* FilckerSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilckerSearchUITests.swift; sourceTree = "<group>"; };
-		78A1E54C27CF9C000093D4EF /* FilckerSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilckerSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		78A1E55B27CF9DAE0093D4EF /* PhotoSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchView.swift; sourceTree = "<group>"; };
-		78A1E55D27CF9E420093D4EF /* PhotoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetail.swift; sourceTree = "<group>"; };
+		78A1E5D427CFCC670093D4EF /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		78A1E5D627CFCCA60093D4EF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		78A1E5D827CFCD240093D4EF /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		78A1E5DA27CFCD5B0093D4EF /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		78A1E5DC27CFCD910093D4EF /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		78A1E5DE27CFCDC30093D4EF /* PhotoSearchGallaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchGallaryApp.swift; sourceTree = "<group>"; };
+		78A1E61127CFE1040093D4EF /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		78A1E61227CFE1040093D4EF /* UrlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		78A1E61327CFE1040093D4EF /* UrlImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
+		78A1E61527CFE1040093D4EF /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
+		78A1E61627CFE1040093D4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A1E61927CFE1040093D4EF /* PhotoSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewModel.swift; sourceTree = "<group>"; };
+		78A1E61A27CFE1040093D4EF /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		78A1E61B27CFE1050093D4EF /* PhotoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetail.swift; sourceTree = "<group>"; };
+		78A1E61C27CFE1050093D4EF /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		78A1E61D27CFE1050093D4EF /* PhotoSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchView.swift; sourceTree = "<group>"; };
+		78A1E61F27CFE1050093D4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78A1E62127CFE1050093D4EF /* SearchRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		78A1E63427CFE4810093D4EF /* FilckerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilckerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A1E63D27CFE53E0093D4EF /* PhotoSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewModelTests.swift; sourceTree = "<group>"; };
+		78A1E63F27CFE6760093D4EF /* Search_Success_Responce.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Search_Success_Responce.json; sourceTree = "<group>"; };
+		78A1E64127CFE6F70093D4EF /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +74,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A1E53927CF9C000093D4EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A1E54327CF9C000093D4EF /* Frameworks */ = {
+		78A1E63127CFE4810093D4EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,8 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				78A1E52E27CF9BFE0093D4EF /* FilckerSearch */,
-				78A1E53F27CF9C000093D4EF /* FilckerSearchTests */,
-				78A1E54927CF9C000093D4EF /* FilckerSearchUITests */,
+				78A1E63527CFE4810093D4EF /* FilckerSearchTests */,
 				78A1E52D27CF9BFE0093D4EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,8 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				78A1E52C27CF9BFE0093D4EF /* FilckerSearch.app */,
-				78A1E53C27CF9C000093D4EF /* FilckerSearchTests.xctest */,
-				78A1E54627CF9C000093D4EF /* FilckerSearchUITests.xctest */,
+				78A1E63427CFE4810093D4EF /* FilckerSearchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,55 +105,92 @@
 		78A1E52E27CF9BFE0093D4EF /* FilckerSearch */ = {
 			isa = PBXGroup;
 			children = (
-				78A1E55927CF9D4E0093D4EF /* Module */,
-				78A1E52F27CF9BFE0093D4EF /* FilckerSearchApp.swift */,
-				78A1E53127CF9BFE0093D4EF /* ContentView.swift */,
-				78A1E53327CF9C000093D4EF /* Assets.xcassets */,
-				78A1E53527CF9C000093D4EF /* Preview Content */,
+				78A1E5D327CFCC210093D4EF /* Networking */,
+				78A1E61627CFE1040093D4EF /* Assets.xcassets */,
+				78A1E61027CFE1040093D4EF /* ImageDownloaderCacher */,
+				78A1E61727CFE1040093D4EF /* Module */,
+				78A1E61E27CFE1050093D4EF /* Preview Content */,
+				78A1E62027CFE1050093D4EF /* Repository */,
+				78A1E61427CFE1040093D4EF /* Utility */,
 			);
 			path = FilckerSearch;
 			sourceTree = "<group>";
 		};
-		78A1E53527CF9C000093D4EF /* Preview Content */ = {
+		78A1E5D327CFCC210093D4EF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				78A1E53627CF9C000093D4EF /* Preview Assets.xcassets */,
+				78A1E5D427CFCC670093D4EF /* EndPoints.swift */,
+				78A1E5D627CFCCA60093D4EF /* NetworkManager.swift */,
+				78A1E5D827CFCD240093D4EF /* URLRequest+Extension.swift */,
+				78A1E5DA27CFCD5B0093D4EF /* ServiceError.swift */,
+				78A1E5DC27CFCD910093D4EF /* ApiRequest.swift */,
+				78A1E5DE27CFCDC30093D4EF /* PhotoSearchGallaryApp.swift */,
 			);
-			path = "Preview Content";
+			path = Networking;
 			sourceTree = "<group>";
 		};
-		78A1E53F27CF9C000093D4EF /* FilckerSearchTests */ = {
+		78A1E61027CFE1040093D4EF /* ImageDownloaderCacher */ = {
 			isa = PBXGroup;
 			children = (
-				78A1E54027CF9C000093D4EF /* FilckerSearchTests.swift */,
+				78A1E61127CFE1040093D4EF /* ImageCache.swift */,
+				78A1E61227CFE1040093D4EF /* UrlImageView.swift */,
+				78A1E61327CFE1040093D4EF /* UrlImageModel.swift */,
 			);
-			path = FilckerSearchTests;
+			path = ImageDownloaderCacher;
 			sourceTree = "<group>";
 		};
-		78A1E54927CF9C000093D4EF /* FilckerSearchUITests */ = {
+		78A1E61427CFE1040093D4EF /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				78A1E54A27CF9C000093D4EF /* FilckerSearchUITests.swift */,
-				78A1E54C27CF9C000093D4EF /* FilckerSearchUITestsLaunchTests.swift */,
+				78A1E61527CFE1040093D4EF /* Rechability.swift */,
 			);
-			path = FilckerSearchUITests;
+			path = Utility;
 			sourceTree = "<group>";
 		};
-		78A1E55927CF9D4E0093D4EF /* Module */ = {
+		78A1E61727CFE1040093D4EF /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				78A1E55A27CF9D5A0093D4EF /* Search */,
+				78A1E61827CFE1040093D4EF /* Search */,
 			);
 			path = Module;
 			sourceTree = "<group>";
 		};
-		78A1E55A27CF9D5A0093D4EF /* Search */ = {
+		78A1E61827CFE1040093D4EF /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				78A1E55B27CF9DAE0093D4EF /* PhotoSearchView.swift */,
-				78A1E55D27CF9E420093D4EF /* PhotoDetail.swift */,
+				78A1E61927CFE1040093D4EF /* PhotoSearchViewModel.swift */,
+				78A1E61A27CFE1040093D4EF /* CardView.swift */,
+				78A1E61B27CFE1050093D4EF /* PhotoDetail.swift */,
+				78A1E61C27CFE1050093D4EF /* SearchResponse.swift */,
+				78A1E61D27CFE1050093D4EF /* PhotoSearchView.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		78A1E61E27CFE1050093D4EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78A1E61F27CFE1050093D4EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78A1E62027CFE1050093D4EF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				78A1E62127CFE1050093D4EF /* SearchRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		78A1E63527CFE4810093D4EF /* FilckerSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				78A1E63D27CFE53E0093D4EF /* PhotoSearchViewModelTests.swift */,
+				78A1E63F27CFE6760093D4EF /* Search_Success_Responce.json */,
+				78A1E64127CFE6F70093D4EF /* MockNetworkManager.swift */,
+			);
+			path = FilckerSearchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,41 +213,23 @@
 			productReference = 78A1E52C27CF9BFE0093D4EF /* FilckerSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78A1E53B27CF9C000093D4EF /* FilckerSearchTests */ = {
+		78A1E63327CFE4810093D4EF /* FilckerSearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A1E55327CF9C000093D4EF /* Build configuration list for PBXNativeTarget "FilckerSearchTests" */;
+			buildConfigurationList = 78A1E63A27CFE4810093D4EF /* Build configuration list for PBXNativeTarget "FilckerSearchTests" */;
 			buildPhases = (
-				78A1E53827CF9C000093D4EF /* Sources */,
-				78A1E53927CF9C000093D4EF /* Frameworks */,
-				78A1E53A27CF9C000093D4EF /* Resources */,
+				78A1E63027CFE4810093D4EF /* Sources */,
+				78A1E63127CFE4810093D4EF /* Frameworks */,
+				78A1E63227CFE4810093D4EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78A1E53E27CF9C000093D4EF /* PBXTargetDependency */,
+				78A1E63927CFE4810093D4EF /* PBXTargetDependency */,
 			);
 			name = FilckerSearchTests;
 			productName = FilckerSearchTests;
-			productReference = 78A1E53C27CF9C000093D4EF /* FilckerSearchTests.xctest */;
+			productReference = 78A1E63427CFE4810093D4EF /* FilckerSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		78A1E54527CF9C000093D4EF /* FilckerSearchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78A1E55627CF9C000093D4EF /* Build configuration list for PBXNativeTarget "FilckerSearchUITests" */;
-			buildPhases = (
-				78A1E54227CF9C000093D4EF /* Sources */,
-				78A1E54327CF9C000093D4EF /* Frameworks */,
-				78A1E54427CF9C000093D4EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78A1E54827CF9C000093D4EF /* PBXTargetDependency */,
-			);
-			name = FilckerSearchUITests;
-			productName = FilckerSearchUITests;
-			productReference = 78A1E54627CF9C000093D4EF /* FilckerSearchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,12 +244,9 @@
 					78A1E52B27CF9BFE0093D4EF = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					78A1E53B27CF9C000093D4EF = {
+					78A1E63327CFE4810093D4EF = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 78A1E52B27CF9BFE0093D4EF;
-					};
-					78A1E54527CF9C000093D4EF = {
-						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = 78A1E52B27CF9BFE0093D4EF;
 					};
 				};
@@ -242,8 +265,7 @@
 			projectRoot = "";
 			targets = (
 				78A1E52B27CF9BFE0093D4EF /* FilckerSearch */,
-				78A1E53B27CF9C000093D4EF /* FilckerSearchTests */,
-				78A1E54527CF9C000093D4EF /* FilckerSearchUITests */,
+				78A1E63327CFE4810093D4EF /* FilckerSearchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,22 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1E53727CF9C000093D4EF /* Preview Assets.xcassets in Resources */,
-				78A1E53427CF9C000093D4EF /* Assets.xcassets in Resources */,
+				78A1E62627CFE1050093D4EF /* Assets.xcassets in Resources */,
+				78A1E62C27CFE1050093D4EF /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A1E53A27CF9C000093D4EF /* Resources */ = {
+		78A1E63227CFE4810093D4EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A1E54427CF9C000093D4EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				78A1E64027CFE6760093D4EF /* Search_Success_Responce.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,42 +295,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1E55C27CF9DAE0093D4EF /* PhotoSearchView.swift in Sources */,
-				78A1E55E27CF9E420093D4EF /* PhotoDetail.swift in Sources */,
-				78A1E53227CF9BFE0093D4EF /* ContentView.swift in Sources */,
-				78A1E53027CF9BFE0093D4EF /* FilckerSearchApp.swift in Sources */,
+				78A1E62927CFE1050093D4EF /* PhotoDetail.swift in Sources */,
+				78A1E5D727CFCCA60093D4EF /* NetworkManager.swift in Sources */,
+				78A1E62327CFE1050093D4EF /* UrlImageView.swift in Sources */,
+				78A1E62B27CFE1050093D4EF /* PhotoSearchView.swift in Sources */,
+				78A1E62227CFE1050093D4EF /* ImageCache.swift in Sources */,
+				78A1E5DF27CFCDC30093D4EF /* PhotoSearchGallaryApp.swift in Sources */,
+				78A1E5DD27CFCD910093D4EF /* ApiRequest.swift in Sources */,
+				78A1E62427CFE1050093D4EF /* UrlImageModel.swift in Sources */,
+				78A1E5D927CFCD240093D4EF /* URLRequest+Extension.swift in Sources */,
+				78A1E62727CFE1050093D4EF /* PhotoSearchViewModel.swift in Sources */,
+				78A1E62D27CFE1050093D4EF /* SearchRepository.swift in Sources */,
+				78A1E62527CFE1050093D4EF /* Rechability.swift in Sources */,
+				78A1E62A27CFE1050093D4EF /* SearchResponse.swift in Sources */,
+				78A1E5DB27CFCD5B0093D4EF /* ServiceError.swift in Sources */,
+				78A1E62827CFE1050093D4EF /* CardView.swift in Sources */,
+				78A1E5D527CFCC670093D4EF /* EndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A1E53827CF9C000093D4EF /* Sources */ = {
+		78A1E63027CFE4810093D4EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1E54127CF9C000093D4EF /* FilckerSearchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A1E54227CF9C000093D4EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78A1E54B27CF9C000093D4EF /* FilckerSearchUITests.swift in Sources */,
-				78A1E54D27CF9C000093D4EF /* FilckerSearchUITestsLaunchTests.swift in Sources */,
+				78A1E64227CFE6F70093D4EF /* MockNetworkManager.swift in Sources */,
+				78A1E63E27CFE53E0093D4EF /* PhotoSearchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		78A1E53E27CF9C000093D4EF /* PBXTargetDependency */ = {
+		78A1E63927CFE4810093D4EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 78A1E52B27CF9BFE0093D4EF /* FilckerSearch */;
-			targetProxy = 78A1E53D27CF9C000093D4EF /* PBXContainerItemProxy */;
-		};
-		78A1E54827CF9C000093D4EF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78A1E52B27CF9BFE0093D4EF /* FilckerSearch */;
-			targetProxy = 78A1E54727CF9C000093D4EF /* PBXContainerItemProxy */;
+			targetProxy = 78A1E63827CFE4810093D4EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,15 +506,43 @@
 			};
 			name = Release;
 		};
-		78A1E55427CF9C000093D4EF /* Debug */ = {
+		78A1E63B27CFE4810093D4EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = udaysolutions.FilckerSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilckerSearch.app/FilckerSearch";
+			};
+			name = Debug;
+		};
+		78A1E63C27CFE4810093D4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = udaysolutions.FilckerSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,59 +550,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilckerSearch.app/FilckerSearch";
-			};
-			name = Debug;
-		};
-		78A1E55527CF9C000093D4EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = udaysolutions.FilckerSearchTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilckerSearch.app/FilckerSearch";
-			};
-			name = Release;
-		};
-		78A1E55727CF9C000093D4EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = udaysolutions.FilckerSearchUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FilckerSearch;
-			};
-			name = Debug;
-		};
-		78A1E55827CF9C000093D4EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = udaysolutions.FilckerSearchUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FilckerSearch;
 			};
 			name = Release;
 		};
@@ -584,20 +574,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A1E55327CF9C000093D4EF /* Build configuration list for PBXNativeTarget "FilckerSearchTests" */ = {
+		78A1E63A27CFE4810093D4EF /* Build configuration list for PBXNativeTarget "FilckerSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78A1E55427CF9C000093D4EF /* Debug */,
-				78A1E55527CF9C000093D4EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78A1E55627CF9C000093D4EF /* Build configuration list for PBXNativeTarget "FilckerSearchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78A1E55727CF9C000093D4EF /* Debug */,
-				78A1E55827CF9C000093D4EF /* Release */,
+				78A1E63B27CFE4810093D4EF /* Debug */,
+				78A1E63C27CFE4810093D4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
