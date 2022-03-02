@@ -12,5 +12,4 @@ enum ServiceError: Error {
     case dataNotFound
     case parsingError
     case networkNotAvailable
-
 }

@@ -8,6 +8,7 @@
 import Foundation
 
 extension URLRequest {
+    
     static func getURLRequest(for apiRequest:ApiRequestType)-> URLRequest? {
         if let url = URL(string:apiRequest.baseUrl.appending(apiRequest.path)),
            var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false){
@@ -21,4 +22,5 @@ extension URLRequest {
             return nil
         }
     }
+    
 }
